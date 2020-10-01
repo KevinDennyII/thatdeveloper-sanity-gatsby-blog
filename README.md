@@ -1,5 +1,10 @@
 # ThatDeveloper Blog with Gatsby
 
+The currently URL for my blog (in construction) is:
+https://thatdeveloper-sanity-gatsby-blog.netlify.app/
+
+This will soon move to the URL of https://thatdeveloper.blog
+
 _Fully customizable blog template with a React.js front-end._
 
 Deployed from [sanity.io/create](https://www.sanity.io/create/?template=sanity-io%2Fsanity-template-gatsby-blog).
