@@ -1,5 +1,6 @@
 import React from 'react'
 import {graphql} from 'gatsby'
+import './../fonts/comic_andy.ttf'
 import {
   mapEdgesToNodes,
   filterOutDocsWithoutSlugs,

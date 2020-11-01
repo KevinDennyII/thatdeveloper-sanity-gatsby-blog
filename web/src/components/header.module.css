@@ -1,6 +1,12 @@
 @import '../styles/custom-media.css';
 @import '../styles/custom-properties.css';
 
+@font-face {
+  font-family: 'Comic Andy';
+  src: local('Comic Andy'), url('./../fonts/comic_andy.ttf') format('truetype');
+}
+
+
 .root {
   position: relative;
   z-index: 100;
@@ -19,8 +25,10 @@
 }
 
 .branding {
-  font-weight: 600;
+  font-family: 'Comic Andy', serif;
+  /*font-weight: 100;*/
   flex: 1;
+  margin: auto;
 
   @nest & a {
     display: inline-block;

@@ -4,11 +4,20 @@ import Icon from './icon'
 import {cn} from '../lib/helpers'
 
 import styles from './header.module.css'
+import avatar from './../images/kevin_final.png'
 
 const Header = ({onHideNav, onShowNav, showNav, siteTitle}) => (
   <div className={styles.root}>
     <div className={styles.wrapper}>
-      <div className={styles.branding}>
+      <div>
+        <img
+          src={avatar}
+          height='202rem'
+          width='197rem'
+          alt='Kevin Denny II avatar with yellow hoodie that says Without Music Life Would B flat'
+        />
+      </div>
+      <div className={styles.branding} style={{fontSize: '48px'}}>
         <Link to='/'>{siteTitle}</Link>
       </div>
 
